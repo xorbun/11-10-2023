@@ -36,7 +36,7 @@ fetch(
         const col=document.createElement("div")
         col.classList.add("col")
         const card= document.createElement("div")
-        card.classList.add("card", "mb-3", "w-100")
+        card.classList.add("card", "mb-3", "w-100", "p-2")
         const newimg=document.createElement("img")
         newimg.setAttribute("src", book.img)
         newimg.classList.add("img-fluid","w-100")
@@ -48,7 +48,7 @@ fetch(
         discard.innerText="cancella"
         discard.addEventListener("click", function()
         {
-            
+    
         })
         card.appendChild(newimg)
         card.appendChild(newtitle)
