@@ -45,6 +45,7 @@ fetch(
         newtitle.innerText=book.title
         newprice.innerText="prezzo: "+ book.price + "$"
         const discard=document.createElement("button")
+        discard.classList.add("btn", "btn-primary")
         discard.innerText="cancella"
         discard.addEventListener("click", function()
         {
@@ -56,15 +57,7 @@ fetch(
         card.appendChild(discard)
         col.appendChild(card)
         row.appendChild(col)
-        
-        
     });
- 
-        
-
-          
-   
-   
 })
 .catch((err)=>
 {
