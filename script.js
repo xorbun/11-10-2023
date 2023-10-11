@@ -44,9 +44,12 @@ fetch(
         const newprice=document.createElement("p")
         newtitle.innerText=book.title
         newprice.innerText="prezzo: "+ book.price + "$"
+        const discard=document.createElement("button")
+        discard.innerText="cancella"
         card.appendChild(newimg)
         card.appendChild(newtitle)
         card.appendChild(newprice)
+        card.appendChild(discard)
         col.appendChild(card)
         row.appendChild(col)
         
