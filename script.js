@@ -36,10 +36,10 @@ fetch(
         const col=document.createElement("div")
         col.classList.add("col")
         const card= document.createElement("div")
-        card.classList.add("card-body", "mb-2")
+        card.classList.add("card", "mb-3", "w-100")
         const newimg=document.createElement("img")
         newimg.setAttribute("src", book.img)
-        newimg.classList.add("img-fluid")
+        newimg.classList.add("img-fluid","w-100")
         const newtitle=document.createElement("p")
         const newprice=document.createElement("p")
         newtitle.innerText=book.title
